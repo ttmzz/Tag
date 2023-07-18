@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkslateblue;
+    color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#forms {
+
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    height: 50%;
+    width: 350px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 1px rgb(37, 37, 94);
+
+}
+
+.lemail {
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(70px);
+}
+
+.lsenha {
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(110px);
+}
+.valor {
+    display: flex;
+    width: 270px;
+    outline: 0;
+    color: rgb(208, 216, 224);
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid darkgrey;
+    transform: translateY(45px);
+}
+
+.a {
+    transform: translateY(170px);
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-style: italic;
+    background-color: darkorchid;
+    color: darkgrey;
+    border: 2px solid darkorchid;
+    border-radius: 6px;
+    transform: translateY(175px);
+}
+
+.btn:hover {
+    background-color: rgb(135, 46, 180);
+}
